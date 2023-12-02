@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table without using html talbe attribute and list</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .heading {
+        font-weight: 600;
+
+        color: black;
+      }
+      .table {
+        margin: 100px auto;
+        border: 2px solid black;
+        min-height: 24px;
+      }
+      .row {
+        min-width: 500px;
+
+        border-bottom: 1px solid black;
+      }
+      .col {
+        font-size: 30px;
+        display: inline;
+        padding: 0px 10px;
+        border-left: 2px solid black;
+      }
+      .card {
+        margin: 20px auto;
+        background:#e4e4e4;
+        border-radius: 7px;
+        width: 600px;
+        height: 209px;
+      }
+     
+      .first {
+        width: 47%;
+        display: inline;
+        border: 1px solid red;
+        margin-right: 15px;
+      }
+      input[type="text"]{
+        border: 1px solid rgb(90, 88, 88);
+        padding: 5px;
+        border-radius: 3px;
+        width: 80%;
+      }
+      small{
+      color: #190e0e;
+      }
+      hr{
+        width: 90%;
+      }
+      #btn1{
+      width: 90%;
+      border: none;
+      background:#4646e5;
+      color: white;
+      padding: 7px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 17px ;
+      &:hover{
+        opacity: 0.7;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table without using html tag</h1>
+    <div class="table">
+      <div class="row">
+        <div class="col heading">rollno</div>
+        <div class="col heading">name</div>
+        <div class="col heading">subject</div>
+        <div class="col heading">course</div>
+        <div class="col heading">duration</div>
+        <div class="col heading">timing</div>
+        <div class="col heading">timing</div>
+        <div class="col heading">timing</div>
+        <div class="col heading">timing</div>
+      </div>
+      <div class="row">
+        <div class="col">rollno</div>
+        <div class="col">name</div>
+        <div class="col">subject</div>
+        <div class="col">course</div>
+        <div class="col">duration</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+      </div>
+      <div class="row">
+        <div class="col">rollno</div>
+        <div class="col">name</div>
+        <div class="col">subject</div>
+        <div class="col">course</div>
+        <div class="col">duration</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+      </div>
+      <div class="row">
+        <div class="col">rollno</div>
+        <div class="col">name</div>
+        <div class="col">subject</div>
+        <div class="col">course</div>
+        <div class="col">duration</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+      </div>
+      <div class="row">
+        <div class="col">rollno</div>
+        <div class="col">name</div>
+        <div class="col">subject</div>
+        <div class="col">course</div>
+        <div class="col">duration</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+      </div>
+      <div class="row">
+        <div class="col">rollno</div>
+        <div class="col">name</div>
+        <div class="col">subject</div>
+        <div class="col">course</div>
+        <div class="col">duration</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+      </div>
+      <div class="row">
+        <div class="col">rollno</div>
+        <div class="col">name</div>
+        <div class="col">subject</div>
+        <div class="col">course</div>
+        <div class="col">duration</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+      </div>
+      <div class="row">
+        <div class="col">rollno</div>
+        <div class="col">name</div>
+        <div class="col">subject</div>
+        <div class="col">course</div>
+        <div class="col">duration</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+        <div class="col">timing</div>
+      </div>
+    </div>
+    <h2>li tag without using inbuilt html tag</h2>
+    <div class="ul">
+      <div class="li">&#x2022; afzal</div>
+      <div class="li">&#x2022; zaheen</div>
+      <div class="li">&#x2022; mern</div>
+      <div class="li">&#x2022; development</div>
+      <div class="li">&#x2022; gfg</div>
+      <div class="li">&#x2022; geeks</div>
+    </div>
+    <h1>card assignment </h1>
+<div class="card">
+   <div style="display: flex;">
+    <div style=" width: 50%; height: 63px;margin-left: 15px;">
+        <label for="">Name on card</label><br />
+        <input type="text" /><br>
+       <small> Full name as displayed on card</small>
+       </div>
+       <div style=" width: 50%; height: 63px;">
+        <label for="">Credit card number</label>
+        <input type="text" /><br>
+     </div>
+   </div>
+   <div style=" width: 49%; height: 63px;margin: 15px;display: flex;">
+    <div style="width: 50%; height: 63px;">
+        <label for="">Expiration</label><br />
+        <input type="text" /><br>
+      
+       </div>
+       <div style="width: 50%; height: 63px;">
+        <label for="">CVV   </label>
+        <input type="text" /><br>
+     </div>
+ </div>
+ <hr>
+ <button type="button" id="btn1">Continue to checkout</button>
+        
+        
+   
+</div>
+  </body>
+</html>
